@@ -22,5 +22,5 @@ print(f"Followers: {profile.followers}")
 print(f"Followees: {profile.followees}")
 print(f"Post-count: {profile.mediacount}")
 
-for post in profile.get_post():
+for post in profile.get_posts():
     print(f"post: {post.caption}, like: {post.likes}, comments: {post.comments}")
